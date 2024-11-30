@@ -47,7 +47,7 @@
 )
 
 (defsrc
-  f10  f11  f12
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
   tab  q    w    e    r    t    u    i    o    p
   caps a    s    d    f    g    h    j    k    l    ;
   lsft z    x    c    v    b    n    m    ,    .    /
@@ -55,7 +55,7 @@
 )
 
 (deflayer qwerty
-  mute vold volu
+  _    _ brup lp   mctl bldn blup prev pp   next mute vold volu
   tab  q    w    e    r    t    u    i    o    p
   esc @sft_a   @alt_s   @ctl_d   @met_f   g   h   @met_j   @ctl_k   @alt_l   @sft_;
   lsft  z    x    c    v    b    n    m    ,    .    /
@@ -63,7 +63,7 @@
 )
 
 (deflayer nav
-  _ _ _
+  _    _ brdn lp   mctl bldn blup prev pp   next mute vold volu
   tab   @m_q   @m_w   @m_e   @m_r    @m_t    {      }    \(    \)
   caps @m_a   @m_s   @m_d   @m_f    @m_g   left  down   up   right  bspc
   lsft  @m_z   @m_x   @m_c   @m_v      b     n      [     ]     <    >
