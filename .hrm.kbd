@@ -16,15 +16,15 @@
 
 
 (defalias
-    sft_a (tap-hold-next-release 200 a lsft)
-    alt_s (tap-hold-next-release 200 s lalt)
-    ctl_d (tap-hold-next-release 200 d lctl)
-    met_f (tap-hold-next-release 200 f lmet)
+    sft_a (tap-hold-next-release 150 a lsft)
+    alt_s (tap-hold-next-release 150 s lalt)
+    ctl_d (tap-hold-next-release 150 d lctl)
+    met_f (tap-hold-next-release 150 f lmet)
 
-    met_j (tap-hold-next-release 200 j rmet)
-    ctl_k (tap-hold-next-release 200 k rctl)
-    alt_l (tap-hold-next-release 200 l lalt)
-    sft_; (tap-hold-next-release 200 ; rsft)
+    met_j (tap-hold-next-release 150 j rmet)
+    ctl_k (tap-hold-next-release 150 k rctl)
+    alt_l (tap-hold-next-release 150 l lalt)
+    sft_; (tap-hold-next-release 150 ; rsft)
 
     nav (layer-toggle nav)
     m_q (around lmet q)
